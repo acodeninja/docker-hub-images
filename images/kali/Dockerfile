@@ -12,4 +12,6 @@ RUN DEBIAN_FRONTEND=noninteractive apt full-upgrade -y -f || apt-get --fix-broke
 # See https://www.kali.org/tools/kali-meta/ for meta packages you might want to install
 RUN DEBIAN_FRONTEND=noninteractive apt-get -y install kali-tools-web kali-tools-vulnerability kali-tools-exploitation
 
-RUN apt-get clean
+RUN DEBIAN_FRONTEND=noninteractive apt-get install -y libwacom-common
+RUN DEBIAN_FRONTEND=noninteractive apt-get upgrade -y
+
