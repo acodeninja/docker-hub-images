@@ -11,6 +11,16 @@
 Basic nodejs image with all system requirements to build [Electron Builder](https://www.electron.build/)
 applications for windoze, linux, and macOS.
 
+## Kali Linux
+
+|||
+|---|---|
+| Location | `images/kali/Dockerfile` |
+| Purpose | Provide a platform for running penetration tests on machines that will block installation of testing tools |
+| Docker Hub | https://hub.docker.com/r/acodeninja/kali/ |
+
+A version of kali linux with noVNC and some packages for testing web applications.
+
 ## DIWA
 
 |||
