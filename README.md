@@ -4,7 +4,7 @@
 
 |||
 |---|---|
-| Location | `electron-builder/Dockerfile` |
+| Location | `images/electron-builder/Dockerfile` |
 | Purpose | Provide a platform to build electron-builder executables for all platforms |
 | Docker Hub | https://hub.docker.com/r/acodeninja/electron-builder/ |
 
@@ -15,7 +15,7 @@ applications for windoze, linux, and macOS.
 
 |||
 |---|---|
-| Location | `diwa/Dockerfile` |
+| Location | `images/diwa/Dockerfile` |
 | Purpose | Hackable image with specific purposeful security problems |
 | Docker Hub | https://hub.docker.com/r/acodeninja/diwa/ |
 
@@ -26,7 +26,7 @@ those new to penetration testing to explore.
 
 |||
 |---|---|
-| Location | `laravel-dusk/Dockerfile` |
+| Location | `images/laravel-dusk/Dockerfile` |
 | Purpose | Testing Laravel applications using dusk |
 | Docker Hub | https://hub.docker.com/r/acodeninja/laravel-dusk/ |
 
@@ -38,7 +38,7 @@ as Atlassian charges for the amount of time used by the build process.
 
 |||
 |---|---|
-| Location | `laravel-phpunit/Dockerfile` |
+| Location | `images/laravel-phpunit/Dockerfile` |
 | Purpose | Generic PHPUnit image with everything you would expect to be installed for testing a Laravel application |
 | Docker Hub | https://hub.docker.com/r/acodeninja/laravel-phpunit/ |
 
