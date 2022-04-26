@@ -11,6 +11,17 @@
 Basic nodejs image with all system requirements to build [Electron Builder](https://www.electron.build/)
 applications for windoze, linux, and macOS.
 
+## DIWA
+
+|||
+|---|---|
+| Location | `diwa/Dockerfile` |
+| Purpose | Hackable image with specific purposeful security problems |
+| Docker Hub | https://hub.docker.com/r/acodeninja/diwa/ |
+
+Provides a hackable image with specific purposeful security problems allowing
+those new to penetration testing to explore.
+
 ## Laravel Dusk
 
 |||
