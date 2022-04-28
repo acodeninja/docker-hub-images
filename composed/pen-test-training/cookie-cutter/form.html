@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>🍪⚔️</title>
+</head>
+<body>
+<div>
+    <h2>Current Cookies</h2>
+    <dl>
+    <% Object.entries(cookies).forEach(([name, value]) => { %>
+        <dt><%= name %></dt>
+        <dd><%= value %></dd>
+    <% }); %>
+    </dl>
+</div>
+
+<form action="/" method="post">
+    <fieldset>
+        <legend>Set or overwrite a new cookie</legend>
+        <label>
+            Cookie Name
+            <input type="text" name="name" placeholder="cookieName"/>
+        </label>
+
+        <label>
+            Cookie Value
+            <input type="text" name="value" placeholder="cookieValue"/>
+        </label>
+
+        <button type="submit">Store</button>
+    </fieldset>
+</form>
+</body>
+</html>
